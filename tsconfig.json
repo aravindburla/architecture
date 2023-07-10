@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "rootDir": ".",
+        "baseUrl": ".",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "target": "es2018",
+        "sourceMap": true,
+        "allowJs": true,
+        "paths": {
+            
+        },
+        "outDir": "./build",
+        "strict": false,
+        "incremental": true,
+        "noEmit": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules", "build"]
+}
